@@ -1,0 +1,188 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+
+    .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      min-height: 200px;
+    }
+
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+    @media (max-width: 600px) {
+      .carousel-caption {
+        display: none; 
+      }
+    }
+    header{
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+</style>
+</head>
+<body style="background-color: black;">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="http://www.aimindia.org.in/index.html">Home</a></li>
+        <li><a href="http://www.aimindia.org.in/about_us.html">About Us</a></li>
+        <li><a href="http://www.aimindia.org.in/news.html">Events &amp;News</a></li>
+        <li><a href="http://www.aimindia.org.in/friend.html">Be Friend</a></li>
+	<li><a href="http://www.aimindia.org.in/blog.html">Blog</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+<div class="row">
+  <div class="col-sm-8">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="http://www.aimindia.org.in/images/img1.jpg" alt="Image1">
+          <div class="carousel-caption">
+            <p>Our Mission is to Help</p>
+            <h3>THOSE WHO NEED IT</h3>
+          </div>      
+        </div>
+
+        <div class="item">
+          <img src="http://www.aimindia.org.in/images/img2.jpg" alt="Image2">
+          <div class="carousel-caption">
+            <p>Make all the Children of India</p>
+            <h3>HAPPY</h3>
+          </div>      
+        </div>
+        <div class="item">
+          <img src="http://www.aimindia.org.in/images/img3.jpg" alt="Image3">
+          <div class="carousel-caption">
+            <p>Together We can Change</p>
+            <h3>MANY LIVES</h3>
+          </div>      
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="well" style = "background-color:#7FFF00; text-align:center; font-size:170%;">
+      <p>We Imagine<img src="http://www.aimindia.org.in/images/index_11.png" width="190" height="70" alt="mind"></a></p>
+    </div>
+    <div class="well" style = "background-color:#DAA520; text-align:center; font-size:170%;">
+       <p>We Believe<img src="http://www.aimindia.org.in/images/index_12.png" width="190" height="70" alt="heart"></a></p>
+    </div>
+    <div class="well" style = "background-color:#20B2AA; text-align:center; font-size:170%;">
+       <p>We Achieve<img src="http://www.aimindia.org.in/images/index_13.png" width="190" height="70" alt="might"></a></p>
+    </div>
+  </div>
+</div>
+</div>
+<header>
+<p><b><i>We rely on the generosity of people like you to  run our projects, so whichever way you decide to donate you can be sure that  you will make a real difference to the lives of poor and vulnerable. Donation to Aim India Foundation is eligible to  deduction u/s 80G of Indian Income Tax Act, 1961. <a href="http://www.aimindia.org.in/donate.html">Read More...</a></i></b></p>
+<td>&nbsp;</td>
+       <td><span class="color3"><img src="http://www.aimindia.org.in/images/donate.png" width="179" height="86" alt="donate"></span></td>
+</header>
+
+<div class="container text-center">    
+  <h3>Our Thrust Area</h3>
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="http://www.aimindia.org.in/images/page1_img1.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p style="color:white;">Our education programmes are designed for children who have been born in deprived communities  to find hope and meaning in life.<a href="http://www.aimindia.org.in/education.html" class="button1">Read More...</a></p>
+    </div>
+    <div class="col-sm-4"> 
+      <img src="http://www.aimindia.org.in/images/page1_img2.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p style="color:white;">We use effective information, education and communication activities as well as advocacy to combat the spread of diseases such as:<a href="http://www.aimindia.org.in/health.html" class="button1 color2">Read More...</a></p>    
+    </div>
+    <div class="col-sm-4">
+      <img src="http://www.aimindia.org.in/images/page1_img3.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <p style="color:white;">We  strives for safe food for all. Zero wastage is our moto. Enough food is produced to feed every one, we need to restrict wastage.<a href="http://www.aimindia.org.in/food.html" class="button1 color3">Read More...</a> </p>    
+    </div>
+  </div>
+</div><br>
+<header>
+<h3>Our Mission</h3>
+<p>"Aim India Foundation is a non-profit organisation formed by a group of development professionals working in West Bengal in India. The group is registered as a non-governmental organisation to better pursue its agenda of working towards providing opportunities and enabling conditions for the underprivileged people of India for better quality of life."</p> 
+</header>
+
+<header>
+      <p style = "font-size:170%; text-align:left;"><a href="http://www.aimindia.org.in/index.html" ><span style = "color: orange;"> AIM India</span> Foundation</a><p>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+   <!-- </div>-->
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="http://www.aimindia.org.in/privacy_policy.html">Privacy Policy</a></li>
+        <li><a href="http://www.aimindia.org.in/terms_of_use.html">Terms of Use</a></li>
+        <li><a href="http://www.aimindia.org.in/downloads.html">Downloads</a></li>
+        <li><a href="http://www.aimindia.org.in/friend.html">How to Help</a></li>
+        <li><a href="http://www.aimindia.org.in/contact.html">Contact</a></li>
+      </ul>
+    </div>
+</header>
+
+<footer class="container-fluid text-center">
+  <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <p><div>Copyright &copy; <a href="#">Aim India Foundation</a> All Rights Reserved<br>
+      </a></div></p>
+  <a href="https://www.facebook.com/aimindiango/" target="_blank"><i class="fa fa-facebook-official"></i></a>
+  <a href="https://twitter.com/aimindiango/"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="normaltip"><img src="http://www.aimindia.org.in/images/icon4.gif" alt=""></a></i></a>
+  <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+<div style="text-align:left;" ><strong><a href="http://www.aimindia.org.in/index.html"> Aim India Foundation</a></strong></div>
+<div style="text-align:left;">NGO Working for Child Development, Women Empowerment, Community Service in West Bengal</div>
+<div style="text-align:left;"><span>41, Ballygaunge Terrace</span>, <span>Kolkata</span>, <span>West Bengal</span>,<span>700029</span>,<span>India</span><br>
+</div>
+</footer>
+</footer>
+
+
+</body>
+</html>
